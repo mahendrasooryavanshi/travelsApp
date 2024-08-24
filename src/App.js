@@ -1,10 +1,16 @@
+import Footer from "./Componets/Footer/Footer";
+import Home from "./Componets/Home/Home";
+import Main from "./Componets/Main/Main";
+import Navbar from "./Componets/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      
-      <h2> Traval-site</h2>
-    </div>
+    <>
+    <Navbar/>
+    <Home/>
+    <Main/>
+    <Footer />
+    </>
   );
 }
 
